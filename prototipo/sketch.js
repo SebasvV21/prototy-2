@@ -73,8 +73,8 @@ function crearGrandes() {
     let y = random(height);
     let originalWidth = trazos[cual].width;
     let originalHeight = trazos[cual].height;
-    let newWidth = random(400,600); // Define the new width
-    let newHeight = originalHeight * (newWidth / originalWidth); // Adjust height proportionally
+    let newWidth = random(400,600); 
+    let newHeight = originalHeight * (newWidth / originalWidth); 
 
     let img = {
         img: trazos[cual],
@@ -98,8 +98,8 @@ function crearPeques() {
     let y = random(height);
     let originalWidth = trazos[cual].width;
     let originalHeight = trazos[cual].height;
-    let newWidth = random(400,600); // Define the new width
-    let newHeight = originalHeight * (newWidth / originalWidth); // Adjust height proportionally
+    let newWidth = random(400,600); 
+    let newHeight = originalHeight * (newWidth / originalWidth); 
 
     let img = {
         img: trazos[cual],
